@@ -1,0 +1,15 @@
+bean的生命周期
+=========
+1、创建容器<br>
+2、无参构造函数<br>
+3、注入属性<br>
+4、如果实现了BeanNameAware接口,回调xxx方法返回配置的名称<br>
+5、如果实现了BeanFactoryAware接口，回调xxx方法返回bean所在的容器<br>
+6、如果实现了ApplicationContextAware接口，回调xxx方法返回bean所在的容器<br>
+7、如果配置了bean的后置处理器，调用postProcessBeforeInitialization()方法<br>
+8、如果实现了InitializingBean接口,回调afterPropertiesSet()方法<br>
+9、如果配置了自定义初始化方法，调用自定义初始化方法<br>
+10、如果配置了bean的后置处理器，调用postProcessAfterInitialization()方法<br>
+11、完成初始化，可以使用bean对象<br>
+12、如果实现了DisposableBean，回调destroy()方法<br>
+13、如果配置了自定义摧毁方法,回调自定义初始化方法<br>

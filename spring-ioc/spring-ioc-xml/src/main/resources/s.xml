@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student1 id="01">
+		<weixin>sdadsa</weixin>
+		<code>1</code>
+		<address>中关村</address>
+		<zuoyoum>要么强大，要么听话</zuoyoum>
+	</student1>
+	<student2 id="01">
+		<weixin>sqwq11dadsa</weixin>
+		<code>2</code>
+		<address>大前门</address>
+		<zuoyoum>在哭泣中学会坚强</zuoyoum>
+	</student2>
+</students>
+

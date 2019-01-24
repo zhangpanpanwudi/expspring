@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="beanlife" />
+        <module name="collection-list-arraylist" />
+        <module name="collection-list-linkedlist" />
+        <module name="collection-map-hashmap" />
+        <module name="common" />
+        <module name="dbconnnectionpool" />
+        <module name="dynamic-proxy-cglib" />
+        <module name="dynamic-proxy-jdk" />
+        <module name="spring-ioc-annotation" />
+        <module name="spring-ioc-xml" />
+        <module name="spring-mvc-annotation" />
+        <module name="transactional" />
+        <module name="transactional-aop" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="collection-list-linkedlist" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
